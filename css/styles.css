@@ -1,0 +1,74 @@
+
+/* this class aligns div content vertically and uses padding for consistency*/
+.vertical-center{
+  text-align:right;
+  align-self:center;
+  padding-right:15px;
+  border-right:1px solid white;
+}
+
+
+#centerhelp{
+  margin-bottom:5%;
+  display:flex;
+  justify-content:center;
+
+}
+/*resizes the photo of me to icon size */
+#icon{
+  max-width:100px;
+  max-height:100px;
+}
+img{
+  width:100%;
+  height:auto;
+}
+
+body{
+  margin-top:15%;
+  background-color:black;
+}
+
+
+brand{
+  padding-left:15px;
+  font-family:'Arbutus Slab', serif;
+  font-size:180%;
+  color:LightGrey;
+  text-transform:lowercase;
+  letter-spacing:4px;
+}
+/*titles and brands*/
+h1, h2{
+  font-family:'Arbutus Slab', serif;
+  letter-spacing:2px;
+}
+
+h3,h4{
+  font-family:'Arbutus Slab', serif;
+}
+/* for dates/tags */
+
+h5, h6{
+  font-family:'Inconsolata', monospace;
+}
+
+p{
+  font-family:'Inconsolata', monospace;
+ color:white;
+ font-size:110%;
+ text-indent:5%;
+}
+
+a{
+  font-family:'Inconsolata', monospace;
+}
+
+.navbar.navbar-inverse {
+  background-color:transparent;
+}
+
+
+.navbar-collapse{
+  background:black;
+}
